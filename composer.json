@@ -1,8 +1,8 @@
 {
-    "name": "stoneworld/wechat",
+    "name": "moeart/wechat",
     "description": "微信企业号",
     "keywords": ["wechat"],
-    "homepage": "https://github.com/stoneworld",
+    "homepage": "https://github.com/moeart",
     "license": "MIT",
     "authors": [
         {
