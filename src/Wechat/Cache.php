@@ -134,6 +134,11 @@ class Cache
      */
     protected function getCacheFile($key)
     {
-        return sys_get_temp_dir().DIRECTORY_SEPARATOR.md5($this->prefix.$key);
+        if (function_exists('storage_path')) {
+            $cacheDir = storage_path('framework/cache');
+        } else {
+            $cacheDir = sys_get_temp_dir();
+        }
+        return $cacheDir.DIRECTORY_SEPARATOR.md5($this->prefix.$key);
     }
 }
