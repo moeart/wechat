@@ -6,7 +6,7 @@
 
 使用 `composer`
 
-`composer require "stoneworld/wechat:~2.0" -vvv`
+`composer require "stoneworld/wechat:~2.1" -vvv`
 
 手动安装
 下载 本安装包

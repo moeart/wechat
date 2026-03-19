@@ -4,6 +4,7 @@
     "keywords": ["wechat"],
     "homepage": "https://github.com/moeart",
     "license": "MIT",
+    "version": "2.1",
     "authors": [
         {
             "name": "stoneworld",
